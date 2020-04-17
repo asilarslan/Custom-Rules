@@ -5,6 +5,11 @@ public class Main {
 		
 		System.out.println("Fair use of System.out.println(..).");// NOPMD
 
+		testFunction();
+	}
+	
+	private static void testFunction() {
+		System.out.println("testFunction()");
 	}
 
 }
